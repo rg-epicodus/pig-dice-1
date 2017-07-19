@@ -41,28 +41,32 @@
   border: 2px solid black;
   height: 50px;
   width: 100px;
-  background: #91DE80;
+  background: #7cff3f;
+  color: #224213;
 }
 .stop {
   border: 2px solid black;
   height: 50px;
   width: 100px;
-  background: lightblue;
+  background: #6df9f2;
+  color: #0f514e;
 }
 .btn1 {
   border: 2px solid black;
   height: 50px;
   width: 100px;
-  background: #91DE80;
+  background: #7cff3f;
+  color: #224213;
 }
 .stop1 {
   border: 2px solid black;
   height: 50px;
   width: 100px;
-  background: lightblue;
+  background: #6df9f2;
+  color: #0f514e;
 }
 body {
-  background-image: url("../css/dice.jpeg");
+  background-image: url("../css/dice.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -74,4 +78,26 @@ html {
 .jumbotron {
   background: inherit;
   text-align: center;
+  font-size: 30pt;
+}
+ul {
+  font-size: 15pt;
+  display: block;
+  margin: auto;
+  list-style: circle;
+}
+h1 {
+  font-size: 70pt;
+}
+.col-md-6 {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+.panel {
+  background:inherit;
+}
+.panel-heading {
+ text-align: center;
+ background-color: #f7aef9;
 }
