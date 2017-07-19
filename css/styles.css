@@ -9,6 +9,7 @@
   font-size: 25px;
   padding-top: 25px;
   font-family: sans-serif;
+  color: black;
 }
 .numberrolled {
   width: 200px;
@@ -21,6 +22,7 @@
   font-size: 25px;
   padding-top: 25px;
   font-family: sans-serif;
+  color: black;
 }
 .number2 {
   width: 200px;
@@ -33,6 +35,7 @@
   font-size: 25px;
   padding-top: 25px;
   font-family: sans-serif;
+  color: black;
 }
 .btn {
   border: 2px solid black;
@@ -45,4 +48,30 @@
   height: 50px;
   width: 100px;
   background: lightblue;
+}
+.btn1 {
+  border: 2px solid black;
+  height: 50px;
+  width: 100px;
+  background: #91DE80;
+}
+.stop1 {
+  border: 2px solid black;
+  height: 50px;
+  width: 100px;
+  background: lightblue;
+}
+body {
+  background-image: url("../css/dice.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+.jumbotron {
+  background: inherit;
+  text-align: center;
 }
