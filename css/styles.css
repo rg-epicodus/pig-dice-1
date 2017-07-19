@@ -40,3 +40,9 @@
   width: 100px;
   background: #91DE80;
 }
+.stop {
+  border: 2px solid black;
+  height: 50px;
+  width: 100px;
+  background: lightblue;
+}
