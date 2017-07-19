@@ -5,25 +5,24 @@ function LetsPlay (){
 function Dice(dice) {
   this.dice = 6;
 }
-Dice.prototype.newDice = function (dice) {
+Dice.prototype.newDice = function () {
   return  Math.floor((Math.random() * this.dice) + 1)
 }
-// Player1.prototype.newRolled = function ()  {
-//    this.total += this.turn;
-//    return this.turn = 0;
-// }
-debugger;
+Player1.prototype.newRolled = function ()  {
+   this.total += this.turn;
+   return this.turn = 0;
+}
 Player1.prototype.score = function (thisRoll) {
     if (thisRoll === 1) {
-      alert("turn over")
+      alert("turn over");
     return this.turn = 0;
     }else {
       this.turn += thisRoll;
+      this.total += thisRoll;
     }
   }
 function Player1() {
   this.player = 'Player 1';
-  this.roll = [];
   this.turn = 0;
   this.total = 0;
   }
@@ -34,8 +33,15 @@ $(function(){
     var dice = game.gameDice.newDice();
     //var score = game.gameDice.newDice()
     console.log(dice)
+    game.player1.score(dice);
     $(".numberrolled").text(dice);
-    $(".number1").text(game.player1.total);
+    $(".number1").text(game.player1.turn);
+
+    // if $("stop1").clicked {
+    //   add total of accumlated score 
+
+
+    }
  });
  // $(".btn1").click(function(){
  //   var dice1 = game.gameDice.newDice();
