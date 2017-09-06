@@ -5,7 +5,7 @@ $(function(){
     var player = new Player();
     var player2 = new Player();
     var dice = new Dice();
-
+ 
   $(".btn").click(function(){
     var diceRoll = dice.newDice();
     player.score(diceRoll);

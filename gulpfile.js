@@ -46,5 +46,10 @@ gulp.task('serve', function() {
       baseDir: "./",
       index: "index.html"
     }
-  })
   });
+  gulp.watch(['js/*.js'], ['jsBuild']);
+});
+
+gulp.task('jsBuild', ['jsBrowserify', 'jshint'], function(){
+  browserSync.reload();
+});
