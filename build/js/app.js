@@ -51,14 +51,14 @@ Player.prototype.newRolled = function ()  {
 };
 Player.prototype.score = function (thisRoll) {
     if (thisRoll === 1) {
-      alert("Turn Lost, next player");
+      // alert("Turn Lost, next player");
     return this.turn = 0;
     }else {
       this.turn += thisRoll;
       if (this.total >= 100) {
         this.turn = 0;
         this.total = 0;
-        alert("Winner!");
+        // alert("Winner!");
         return true;
       }
     }
@@ -72,6 +72,7 @@ Player.prototype.hold = function() {
   }
   return this.turn = 0;
 };
+
 exports.playerModule =  Player;
 
 },{}]},{},[2]);
