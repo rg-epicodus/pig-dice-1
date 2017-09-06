@@ -1,7 +1,7 @@
-# Pig Dice, July 19.2017
+# Pig Dice, September 6, 2017
 Projoct for Epicodus, demonstrating proficiency in Objects, Behavior-driven development, branching, Javascript, Jquery, HTML, CSS, and Bootstrap, as well as proper Git procedures.
 
-#### By Stephanie Mayer & Collin Person
+#### By Stephanie Mayer & Rich 
 
 ## Description
 
